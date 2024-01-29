@@ -1,2 +1,2 @@
 setTimeout(function () {
-    window.location.href = "../login/czar.html";}, 3500);
+    window.location.href = "../login/czar.html";}, 1500);

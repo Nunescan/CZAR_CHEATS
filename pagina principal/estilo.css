@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+nav a:hover,
+nav a.home{
+    color: rgb(255, 0, 0);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 700;   
+}
+
+section:nth-child(odd){
+    background: rgb(27, 27, 27);
+}
+
+
+.home--page{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+}
+
+.titulo{
+    padding-left: 100px;
+    left: 100%;
+    margin: 0;
+    font-size: 100px;
+    display: flex;
+    position: abs;
+
+}
+
+.txt-animado span{
+    position: relative;
+}
+
+.txt-animado span::before{
+    content: "";
+    color: red;
+    animation: palavras 3s infinite;
+
+}
+
+.txt-animado span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    animation: cursor 0.95s infinite, digita 10s steps(7) infinite;
+    width: calc(100% + 18px);
+    background-color: rgb(255, 255, 255);
+}
+
+@keyframes digita {
+    10%,15%,20%,25%,30%,35%,40%,45%,50%,55%,60%,65%,70%,75%,80%,85%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,60%,65%,80%,85%{
+        width: calc(100% + 18px);
+    }
+}
+
+
+@keyframes palavras {
+    0%,33%{
+        content: "FiveM";
+    }
+    41%,66%{
+        content: "CS:GO";
+    }
+    81%,100%{
+        content: "Rainbow Six";
+    }
+}
+
+
+.cheats-r6{
+    justify-content: center;
+    display: flex;
+    top: 10px;
+    position: relative;
+    height: 500px;
+    width: 400px;
+    border-radius: 12px;
+    padding: 20px 30px 120px;
+    background: #ffffff;
+    box-shadow: 0 3px 50px rgba(29, 153, 35, 0.5);
+    overflow: hidden;
+    margin-left: 150px;
+    
+}
+
+.cheats-cs{
+    justify-content: center;
+    display: flex;
+    top: 1px;
+    position: relative;
+    height: 500px;
+    width: 400px;
+    border-radius: 12px;
+    padding: 20px 30px 120px;
+    background: #ffffff;
+    box-shadow: 0 3px 50px rgba(192, 141, 75, 0.5);
+    overflow: hidden;
+    margin-left: 150px;
+
+}
+
+.cheats-five{
+    justify-content: center;
+    display: flex;
+    top: 10%;
+    position: relative;
+    height: 500px;
+    width: 400px;
+    border-radius: 12px;
+    padding: 20px 30px 120px;
+    background: #ffffff;
+    box-shadow: 0 3px 50px rgba(138, 9, 9, 0.5);
+    overflow: hidden;
+    margin-left: 150px;
+}
+
+
+.tile-contato{
+    top: 0;
+    margin: 0;
+    position: relative;
+    align-items: center;
+}
+
+.icone-discord{
+    color: RGB(88, 101, 242);
+}
+
+a{
+    text-decoration: none;
+    color: RGB(88, 101, 242);
+    range: infinite;
+}
