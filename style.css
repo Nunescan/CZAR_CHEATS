@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    margin: 0;
+    background: transparent !important;
+    background-color: rgb(0, 0, 0) !important;
+    position: absolute;
+    display: flex;
+    top: 10%;
+    color: #ffffff !important;
+    
+    
+}
+
+.perigo{
+    margin: 0;
+    padding: 0;
+    border: 19px;
+    background-color: transparent !important;
+}
+
+.icon{
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+
+}
+
+.login{
+    position: relative;
+    height: 340px;
+    border-radius: 12px;
+    padding: 20px 30px 120px;
+    background: #ffffff;
+    box-shadow: 0 3px 50px rgba(29, 153, 35, 0.5);
+    overflow: hidden;
+}
+
+.acess{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.email--login{
+    top: 10px;
+    justify-content: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.senha--login{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    justify-content: left;
+    top: 10px;
+}
+
+.btn-login{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 20px;
+}
+
+.entrar-login{
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    border-radius: 7px;
+    border-color: #242424 !important;
+}
+
+.ou{
+    color: #ffffff;
+    content: center;
+    margin: 70px;
+    padding: 10px;
+    display: flex;
+    background-color: transparent;
+    border-radius: 10px;
+    
+}
+
+.cadastro{
+        position: relative;
+        width: px;
+        height: 340px;
+        border-radius: 12px;
+        padding: 20px 30px 120px;
+        background: #ffffff;
+        box-shadow: 0 3px 50px rgba(175, 0, 0, 0.5);
+        overflow: hidden;
+}
+
+.register{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.email--register{
+    top: 10px;
+    justify-content: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.senha--register{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    justify-content: left;
+    top: 10px;
+}
+
+.confirm-senha{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    justify-content: left;
+    top: 10px;
+}
+
+.btn--register{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 20px;
+   
+}
+
+.cadastrar{
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    border-radius: 7px;
+    border-color: #242424 !important;
+}
+
+
+
+
+
