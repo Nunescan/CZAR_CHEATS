@@ -134,14 +134,15 @@ section:nth-child(odd){
 
 .r6-data{
     justify-content: center;
+    top: 70px;
+    right: 80px;
     position: relative;
-    align-items: center;
+    align-items:center;
     margin: 0;
     padding: 0;
-    top: 50%;
-    display:grid;
-    right: 350px;
+    display: absolute;
     color:rgb(1, 165, 50);
+    font-size:large;
 }
 
 .cheats-cs{
@@ -264,3 +265,8 @@ a{
     position: relative;
 }
 
+.btn-buy{
+    margin: 0;
+    padding: 0;
+    size: 100px;
+}
