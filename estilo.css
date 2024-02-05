@@ -129,26 +129,27 @@ section:nth-child(odd){
     overflow: hidden;
     margin-left: 150px;
     right: 10px;
-    
+    margin-right: 100px;
 }
 
 .r6-data{
     justify-content: center;
     top: 70px;
-    right: 80px;
+    right: 100px;
     position: relative;
     align-items:center;
     margin: 0;
     padding: 0;
+    right: 60px;
     display: absolute;
     color:rgb(1, 165, 50);
     font-size:large;
 }
 
 .cheats-cs{
-    justify-content: center;
+    justify-content: left;
     display: flex;
-    top: 0px;
+    top: 50px;
     position: flex;
     height: 500px;
     width: 400px;
@@ -157,27 +158,29 @@ section:nth-child(odd){
     background: #ffffff;
     box-shadow: 0 2px 50px rgba(192, 141, 75, 0.5);
     overflow: hidden;
-    margin-left: 10px;
-
+    margin-left: 100px;
+    
 }
 
 .cs-data{
     justify-content: center;
+    top: 70px;
+    right: 100px;
     position: relative;
-    align-items: center;
+    align-items:center;
     margin: 0;
     padding: 0;
-    top: 50%;
-    display:grid;
-    right: 350px;
+    right: 38px;
+    display: absolute;
     color:rgba(102, 65, 18, 0.5);
+    font-size: large;
 }
 
 .cheats-five{
-    justify-content: center;
-    display: relative;
-    top: 10%;
-    position: relative;
+    justify-content: left;
+    display: flex;
+    top: 50px;
+    position: flex;
     height: 500px;
     width: 400px;
     border-radius: 12px;
@@ -185,30 +188,32 @@ section:nth-child(odd){
     background: #ffffff;
     box-shadow: 0 3px 50px rgba(138, 9, 9, 0.5);
     overflow: hidden;
-    margin-left: 150px;
-    right: 100px;
+    margin-left: 200px;
+    
 }
 
 .five-data{
-    left: 0px;
-    right: 350px;
-    justify-content: left;
+    color:rgb(138, 9, 9, 0.5);
+    font-size: large;
+    justify-content: center;
+    top: 70px;
+    right: 100px;
     position: relative;
-    align-items: center;
+    align-items:center;
     margin: 0;
     padding: 0;
-    top: 10%;
-    display:grid;
-    right: 5000px;
-    color:rgb(138, 9, 9, 0.5);
+    right: 38px;
+    display: absolute;
+
+    
 }
 
 
-.tile-contato{
-    top: 0;
-    margin: 0;
-    position: relative;
-    align-items: center;
+.title-contato{
+   margin: 0;
+   padding: 0;
+   align-items: center;
+   font-size: xxx-large;
 }
 
 .icone-discord{
@@ -220,7 +225,10 @@ section:nth-child(odd){
 a{
     text-decoration: none;
     color: RGB(88, 101, 242);
-    range: infinite;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-size: xxx-large;
 }
 
 .btn-buy-five{
@@ -254,19 +262,18 @@ a{
     background: transparent;
     text-decoration: none;
     box-shadow: 0 1px 30px rgba(29, 153, 35, 0.5);
+    size: 10px;
 }
 
 .contato{
-    left: 500px;
-    right: 0px;
     margin: 0;
     padding: 0;
     align-items: center;
-    position: relative;
+    align-content: center;    
+    flex: auto;
+    font-size: xxx-large;
 }
 
 .btn-buy{
-    margin: 0;
-    padding: 0;
     size: 100px;
 }
