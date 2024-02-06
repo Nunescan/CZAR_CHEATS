@@ -163,15 +163,14 @@ section:nth-child(odd){
 }
 
 .cs-data{
-    justify-content: center;
+    justify-content: left;
     top: 70px;
-    right: 100px;
     position: relative;
-    align-items:center;
+    align-items:left;
     margin: 0;
     padding: 0;
     right: 38px;
-    display: absolute;
+    display: relative;
     color:rgba(102, 65, 18, 0.5);
     font-size: large;
 }
@@ -244,6 +243,7 @@ a{
 
 .btn-buy-cs{
     background-color: rgb(255, 255, 255);
+    justify-content: center;
     margin: 0;
     padding: 0;
     border-radius: 12px;
